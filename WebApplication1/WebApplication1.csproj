@@ -69,8 +69,10 @@
   <ItemGroup>
     <Content Include="Login.ascx" />
     <Content Include="Public.aspx" />
+    <Content Include="Staff.aspx" />
     <Content Include="Tryit.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Member.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Login.ascx.cs">
@@ -88,12 +90,26 @@
       <DependentUpon>Public.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Staff.aspx.cs">
+      <DependentUpon>Staff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staff.aspx.designer.cs">
+      <DependentUpon>Staff.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Tryit.aspx.cs">
       <DependentUpon>Tryit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Tryit.aspx.designer.cs">
       <DependentUpon>Tryit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member.aspx.cs">
+      <DependentUpon>Member.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member.aspx.designer.cs">
+      <DependentUpon>Member.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

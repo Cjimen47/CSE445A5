@@ -15,17 +15,33 @@
     </style>
 </head>
 <body>
-       <h1 class = "center" style ="text-align: center; border: 3px solid #73AD21; padding: 10px;">Public Page</h1>
-        <div>
-           <h2 class = "center" style="padding: 10px;">Login</h2>
-
-            <div>
-            <form id="Form 1" runat ="server" class = "center" >
-                <uc1:Login runat ="server" />
+    <div style =" background-color: #ccffcc; height: auto;" class ="center">
+<h1 class = "center" style ="text-align: center; border: 3px solid #73AD21; padding: 10px;">Public Page</h1> 
+         <h2 class = "center" style="padding: 10px;">Login</h2> 
+            <form id="Form1" runat ="server" class = "center" >
+               <uc1:Login runat ="server" />
             </form>
-                </div>
-        </div>
+      <div style ="padding-top: 10px;" class ="center">
+          <h2>Introduction</h2>
+         <p>
+             Explanation of functionality that Banking application offers
+             <br /><br />
+             How end users can sign up for services
+         </p>
+          <h2>For Users</h2>
+           <p>
+        How users can test this application and what test cases should be used
+        </p>
+      </div >
+        <h3 class = "center"  style= "padding-top:30px;">Other Pages</h3>
+        <button type="button" style ="margin: 30px 0px 30px 150px;">Member Page</button>
+        <button type="button" style ="margin: 30px 0px 30px 100px;">Staff Page</button>
 
-    
+        <div class = "center"  >
+        <h2>Service Directory</h2>
+        <p>To be implemented</p>
+            </div>
+
+    </div>
 </body>
 </html>
